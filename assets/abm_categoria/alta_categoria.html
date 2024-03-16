@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta Categoria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></head>
+</head>
+<style>
+     body{
+        margin: auto;
+        padding: 0;
+        font-family: poppins;
+     }
+
+     h2{
+        margin: auto;
+     }
+
+     .mb-3 {
+            margin: 340px;
+            margin-top: 93px;
+            border: 2px solid black;
+            border-radius: 3%;
+            padding: 20px;
+        }
+
+    .mb-3 form {
+        padding: 25px;
+        justify-content: space-around;
+    }
+
+</style>
+<body>
+    <div class="mb-3">
+        <h2>Crear Impuesto</h2>
+        <form action="alta_categoria2.php" method="post">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" name="nombreC" class="form-control" id="exampleFormControlInput1">
+            <br><br>
+            <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
+            <input type="text" name="desc" class="form-control" id="exampleFormControlInput1">
+            <br><br>
+            <input type="submit" class="btn btn-success" value="Crear">
+        </form>
+    </div>
+
+</body>
+</html>
